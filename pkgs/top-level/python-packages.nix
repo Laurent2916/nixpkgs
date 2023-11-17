@@ -5158,6 +5158,8 @@ self: super: with self; {
 
   hug = callPackage ../development/python-modules/hug { };
 
+  hf-doc-builder = callPackage ../development/python-modules/hf-doc-builder { };
+
   huggingface-hub = callPackage ../development/python-modules/huggingface-hub { };
 
   huisbaasje-client = callPackage ../development/python-modules/huisbaasje-client { };
